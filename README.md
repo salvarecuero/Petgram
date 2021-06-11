@@ -1,7 +1,7 @@
-## curso-platzi-react-avanzado ⚛️
+## Petgram - Tu app de fotos de mascotas 🐈
 
-**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev
+Web made along a Platzi course. It has a design and functional similarity to Instagram. You can register, log in, like photos, navigate between categories, watch your favourite posts, and, of course sign out.
 
-**¡Sígueme en Twitch para streams sobre desarrollo web!** 👉 https://www.twitch.tv/midudev
+## Link
 
-Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
+You can visit the web [clicking here!](https://petgram-salvarecuero.vercel.app/)
