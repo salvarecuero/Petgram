@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://petgram-salvarecuero.vercel.app/",
+    "chromeWebSecurity": false,
+    "viewportWidth": 500,
+    "viewportHeight": 80
+}

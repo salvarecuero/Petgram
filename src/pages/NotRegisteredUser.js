@@ -3,12 +3,13 @@ import { Context } from '../Context';
 import { UserForm } from '../components/UserForm';
 import { RegisterMutation } from '../container/RegisterMutation';
 import { LoginMutation } from '../container/LoginMutation';
+import { Layout } from '../components/Layout';
 
 export const NotRegisteredUser = () => {
   const { activateAuth } = useContext(Context);
 
   return (
-    <>
+    <Layout title='Gestionar sesión' subtitle='Debes estar en una sesión activa para acceder a distintas secciones de la página.'>
       <RegisterMutation>
         {
           (register, { data, loading, error }) => {
@@ -42,6 +43,6 @@ export const NotRegisteredUser = () => {
           }
         }
       </LoginMutation>
-    </>
+    </Layout>
   );
 };
